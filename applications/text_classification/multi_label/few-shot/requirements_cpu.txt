@@ -3,3 +3,4 @@ paddlepaddle>=2.4rc
 paddlenlp>=2.4.3
 paddle2onnx>=1.0.3
 onnxruntime
+pillow>=10.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
