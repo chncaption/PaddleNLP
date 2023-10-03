@@ -5,3 +5,4 @@ torch
 diffusers
 transformers
 omegaconf
+urllib3>=2.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
