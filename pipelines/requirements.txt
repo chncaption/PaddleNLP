@@ -23,3 +23,5 @@ uvicorn
 markdown
 numba
 pymilvus>=2.1
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
