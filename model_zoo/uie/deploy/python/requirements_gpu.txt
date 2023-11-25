@@ -1,3 +1,4 @@
 onnx
 onnxconverter_common
 onnxruntime-gpu
+sympy>=1.12 # not directly required, pinned by Snyk to avoid a vulnerability
