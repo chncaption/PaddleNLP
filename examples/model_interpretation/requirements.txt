@@ -3,3 +3,4 @@ regex>=2021.11.10
 spacy>=2.3.7
 tqdm>=4.62.3
 visualdl>=2.2.2
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
