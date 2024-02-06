@@ -1,4 +1,4 @@
-fastapi==0.79.0
+fastapi==0.109.1
 pydantic==1.9.1
 python-dotenv==0.20.0
 sse_starlette==0.10.3
