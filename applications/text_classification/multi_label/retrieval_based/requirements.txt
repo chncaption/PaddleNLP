@@ -3,3 +3,4 @@ pandas==0.25.1
 paddlenlp>=2.3.7    
 hnswlib>=0.5.2
 pybind11
+onnx>=1.16.0 # not directly required, pinned by Snyk to avoid a vulnerability
