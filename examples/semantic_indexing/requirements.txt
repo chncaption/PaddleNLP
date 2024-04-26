@@ -3,7 +3,13 @@ hnswlib==0.6.2
 numpy==1.22.4
 paddle==1.0.2
 paddlenlp==2.3.4
-paddlepaddle==2.3.1
+paddlepaddle==2.6.1
 regex==2022.7.25
 spacy==3.4.1
 tqdm==4.64.0
+aiohttp>=3.9.4 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+protobuf>=3.20.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pyarrow>=14.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+pydantic>=1.10.13 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
