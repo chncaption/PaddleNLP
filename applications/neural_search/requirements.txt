@@ -3,9 +3,20 @@ pandas==0.25.1
 paddlenlp>=2.1.1    
 paddlepaddle-gpu>=2.2.3
 hnswlib>=0.5.2
-numpy>=1.17.2
+numpy>=1.22.2
 visualdl>=2.2.2
 paddle-serving-app>=0.7.0        
 paddle-serving-client>=0.7.0        
 paddle-serving-server-gpu>=0.7.0.post102
 pybind11
+aiohttp>=3.9.4 # not directly required, pinned by Snyk to avoid a vulnerability
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+fastapi>=0.109.1 # not directly required, pinned by Snyk to avoid a vulnerability
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+onnx>=1.16.0 # not directly required, pinned by Snyk to avoid a vulnerability
+opencv-python>=4.8.1.78 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pyarrow>=14.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
