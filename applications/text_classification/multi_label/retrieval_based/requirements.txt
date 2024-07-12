@@ -3,3 +3,6 @@ pandas==0.25.1
 paddlenlp>=2.3.7    
 hnswlib>=0.5.2
 pybind11
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
