@@ -1,3 +1,7 @@
 paddlenlp>=2.2.0
 transformer==4.11.3
 tensorflow_text==2.5.0
+onnx>=1.16.2 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
