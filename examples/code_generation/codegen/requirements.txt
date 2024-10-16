@@ -5,3 +5,4 @@ sse_starlette==0.10.3
 uvicorn==0.17.6
 openai==0.8.0
 regex==2022.6.2
+starlette>=0.40.0 # not directly required, pinned by Snyk to avoid a vulnerability
